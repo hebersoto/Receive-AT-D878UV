@@ -4,6 +4,10 @@
  * destuffing, byte assembly) -> CRC-16/X.25 FCS check. Counts HDLC flags and valid
  * frames. Pure integer, no libc, no static init needed (state is caller-owned).
  *
+ * AFSK1200 demodulation (PLL bit-timing recovery and decision filtering) is based on
+ * techniques from the Dire Wolf software TNC by John Langner, WB2OSZ
+ * (https://github.com/wb2osz/direwolf, GPL-2.0), reimplemented here.
+ *
  * This file compiles both for the target (fixed-address state) and for a host test
  * harness (test_afsk.c), so the framing/CRC logic is verified off-target first. */
 #include "afsk.h"

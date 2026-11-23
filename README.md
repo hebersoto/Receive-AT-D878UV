@@ -110,6 +110,14 @@ make test            # host self-test of the decoder
 python3 build_image.py "<folder with the stock 4.00 .CDD/.CDI/.spi>" hook.elf hook.bin <out>
 ```
 
+## Credits
+
+The analog APRS (AFSK1200) receive code in this firmware is based on the demodulation
+approach of the **Dire Wolf** software TNC by **John Langner, WB2OSZ**
+(https://github.com/wb2osz/direwolf) — in particular its PLL bit-timing recovery and
+decision filtering — reimplemented here for the radio's GD32/ARM processor. Dire Wolf is
+licensed under the GPL-2.0. Thanks to WB2OSZ and the Dire Wolf contributors.
+
 ## License
 
 The original source in `src/` is released under the **MIT License** (see `LICENSE`).
