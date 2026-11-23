@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-2.0-only
+# Copyright (C) 2026 KP3M
 """Build the modified AnyTone AT-D878UV firmware set (analog APRS RX pop-up).
 
 Two vector hooks (SysTick + TIM6), Radio Info line redirected, lengths

@@ -125,11 +125,13 @@ licensed under the GPL-2.0. Thanks to WB2OSZ and the Dire Wolf contributors.
 
 ## License
 
-The original source in `src/` is released under the **MIT License** (see `LICENSE`).
+The original source in `src/` is released under the **GNU General Public License v2.0**
+(see `LICENSE`). It is GPL-2.0 because the AFSK1200 receive code derives from the GPL-2.0
+Dire Wolf project (see **Credits**).
 
 Note: the firmware image under `firmware/` is a modified AnyTone factory image and
-contains AnyTone's proprietary firmware; the MIT license covers only the original code in
-this project, not the vendor firmware.
+contains AnyTone's proprietary firmware; the GPL covers only the original code in this
+project, not the vendor firmware.
 
 ---
 

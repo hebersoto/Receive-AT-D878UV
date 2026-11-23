@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (C) 2026 KP3M */
 /* Target glue: AFSK1200 demodulator + a custom-drawn APRS RX pop-up for the AnyTone
  * popup (option B).
  *

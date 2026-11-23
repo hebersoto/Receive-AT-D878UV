@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (C) 2026 KP3M */
 /* AFSK1200 (Bell 202) demodulator + AX.25 HDLC deframer for the AnyTone D878UV.
  * Sampled at 9600 Hz (8 samples/bit). Non-coherent mark/space correlator -> tone
  * decision -> edge-resync bit sampler -> NRZI decode -> HDLC (flag detect, bit

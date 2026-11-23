@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (C) 2026 KP3M */
 /* Exception-entry wrappers. st_hook must be first (image base). */
     .syntax unified
     .cpu cortex-m4

@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (C) 2026 KP3M */
 /* Host test for afsk.c: synthesize a real AX.25 UI frame as AFSK1200 audio at
  * 9600 Hz and verify the demodulator decodes it (valid FCS). Build & run natively:
  *   cc -O2 -o test_afsk test_afsk.c afsk.c && ./test_afsk
