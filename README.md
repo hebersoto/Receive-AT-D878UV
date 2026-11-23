@@ -45,6 +45,11 @@ with no added hardware.
 
 ## Flashing
 
+> **IMPORTANT — BACK UP YOUR CODEPLUG FIRST.** Before you flash anything, read your
+> codeplug out of the radio with the CPS and save it. Flashing has not erased the
+> codeplug in testing, but always keep a backup so you can restore your channels and
+> settings if anything goes wrong.
+
 The firmware files are in [`firmware/`](firmware/). Load it the same way you load any
 AnyTone firmware update.
 
