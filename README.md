@@ -72,9 +72,14 @@ After it boots, Radio Info will show firmware **Ver 4.0A**.
 
 ## If something goes wrong
 
-If the radio misbehaves, just **flash the stock 4.00 firmware** back the same way. The
-bootloader is never touched, so re-flashing the factory image restores the radio. You can
-download the official D878UV 4.00 firmware from AnyTone / your dealer.
+This firmware should not harm the radio: it only replaces the normal application image
+and **does not touch the bootloader**. The bootloader is what runs the firmware-update
+mode, so because it is left untouched, the radio can always be put back into update mode
+and recovered.
+
+If the radio misbehaves, just **flash the stock 4.00 firmware** back the same way, and it
+returns to factory behavior. You can download the official D878UV 4.00 firmware from
+AnyTone / your dealer.
 
 ## DMR and analog channels
 
