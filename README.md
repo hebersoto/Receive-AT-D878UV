@@ -105,6 +105,14 @@ make test            # host self-test of the decoder
 python3 build_image.py "<folder with the stock 4.00 .CDD/.CDI/.spi>" hook.elf hook.bin <out>
 ```
 
+## License
+
+The original source in `src/` is released under the **MIT License** (see `LICENSE`).
+
+Note: the firmware image under `firmware/` is a modified AnyTone factory image and
+contains AnyTone's proprietary firmware; the MIT license covers only the original code in
+this project, not the vendor firmware.
+
 ---
 
 **USE AT YOUR OWN RISK. THIS FIRMWARE IS NOT OFFICIAL, IS PROVIDED WITH NO WARRANTY OF ANY
