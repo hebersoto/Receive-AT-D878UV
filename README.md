@@ -28,9 +28,24 @@ It is still a work in progress, but it is decoding real packets off the air toda
 
 ## Tested on
 
-Tested on an AT-D878UV running **firmware 4.00**. It is built from the 4.00 image, so
-4.00 is what it is verified against. It should work on earlier versions as well, but
-those have not been tested yet — testers welcome (see below).
+Tested on an AT-D878UV running **firmware 4.00** (hardware 1.00). It is built from the
+4.00 image, so 4.00 is what it is verified against. See **Compatibility** below for other
+starting firmware versions.
+
+## Compatibility
+
+- **Radio:** the original **AnyTone AT-D878UV / D878UV PLUS** (the "version 1" model).
+  It is **NOT** for the **AT-D878UVII / D878UVII PLUS** ("version 2") — that is a
+  different radio; do not flash this on it.
+- **Starting firmware doesn't matter.** This is a modified **4.00** image, and flashing
+  replaces the whole application image. The original D878UV firmware line is
+  `1.xx -> 3.00–3.08 -> 4.00`, and 4.00 is AnyTone's successor to 3.08, so a radio on any
+  of those (1.xx, 3.xx, or 4.00) flashes up to this build and ends up on 4.0a. (Only 4.00
+  has been tested so far; other starting versions are untested — testers welcome.)
+- **After flashing, program the radio with CPS 4.00** — the CPS version must match the
+  firmware on the radio.
+- **Back up your codeplug first:** a firmware version change erases it (MCU reset) and
+  needs a factory reset after the update.
 
 ## What it was built for
 
